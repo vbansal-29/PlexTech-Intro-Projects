@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="/Users/vishalbansal/Downloads/githubintro/HTML-CSSIntro/activity.css">
+        <meta name="description" content="HTML-CSS Intro project">
+        <meta name="author" content="Vishal Bansal">
+        <link rel="icon" type="image/x-icon" href="/Users/vishalbansal/Downloads/githubintro/HTML-CSSIntro/images/download(1).png">
+        <title>HTML-CSS Intro project</title>
+    </head>
+    <body>        
+        <button onclick="dark()">Dark</button>
+        <button onclick="light()">Light</button>
+        <script>
+            function light() {
+                var el = document.getElementById("demo");
+                var el1 = document.getElementById("demo1");
+                var el2 = document.getElementById("demo2");
+                var el3 = document.getElementById("demo3");
+
+                el.style.color="#FFFFFF";
+                el1.style.color="#FFFFFF";
+                el2.style.color="#FFFFFF";
+                el3.style.color="#FFFFFF";
+        }
+        </script>
+        <script>
+            function dark() {
+                var el = document.getElementById("demo");
+                var el1 = document.getElementById("demo1");
+                var el2 = document.getElementById("demo2");
+                var el3 = document.getElementById("demo3");
+
+                el1.style.color="#000000";
+                el2.style.color="#000000";
+                el3.style.color="#000000";
+                el.style.color="#000000";
+
+            }
+        </script>
+        <div style = "flex-wrap: wrap; display: flex" class = "flexbox-container">
+            <div style = "min-width: 100%; margin-bottom: 2.5px; max-height: 75px; border: 3px solid rgb(255, 255, 255); background-color: rgb(86, 184, 172)" class = "flexbox-item flexbox-item1">
+                <h2 id = "demo" style = "line-height: 75px; text-align: center;font-family: sans-serif; color: white; margin: auto">
+                    Header
+                </h1>
+            </div>
+            <div style = "min-width: 25%; min-height: 50 px; margin: 1px; border: 3px solid rgb(255, 255, 255); background-color: rgb(168, 228, 88)" class = "flexbox-item flexbox-item1">
+                <h2 id = "demo1" style = "flex-direction: row; line-height: 475px; text-align: center;font-family: sans-serif; color: white; margin: auto">
+                    Sidebar
+                </h1>
+            </div>
+            <div style = "min-width: 72.9%; min-height: 100 px; margin: 0px; border: 3px solid rgb(255, 255, 255); background-color: rgb(0, 228, 186)" class = "flexbox-item flexbox-item1">
+                <h2 id = "demo2" style = "flex-direction: row; line-height: 475px; text-align: center;font-family: sans-serif; color: white; margin: auto">
+                    Main Page
+                </h1>
+            </div>
+            <div style = "min-width: 100%; margin-bottom: 10px; max-height: 75px; border: 3px solid rgb(255, 255, 255); background-color: rgb(89, 191, 179)" class = "flexbox-item flexbox-item3">
+                <h2 id = "demo3" style = "line-height: 75px; text-align: center;font-family: sans-serif; color: white; margin: auto">
+                    Footer
+                </h1>
+            </div>
+        </div>   
+    </body>
+</html>
