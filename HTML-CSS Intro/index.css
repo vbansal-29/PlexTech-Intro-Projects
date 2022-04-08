@@ -1,3 +1,4 @@
+
 body {
   margin: 20px 40px;
 }
@@ -25,6 +26,30 @@ p {
   background-color: red;
 }
 
+.yellowExample2 {
+  background-color: rgba(255, 255, 0, 0.935);
+  width: 80px;
+}
+
+.redObject {
+  background-color: red;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.yellowExample3 {
+  background-color: rgba(255, 255, 0, 0.935);
+  width: 15px;
+}
+
+.greenExample {
+  flex: 1;
+  background-color: green;
+}
+
 /*--- Since both .redExample and .blueExample have flex: 1, they will take up an equal amount of space because they meet in the middle ---*/
 
 .blueExample {
@@ -40,9 +65,21 @@ p {
   flex-direction: row-reverse;
 }
 
+.emptyExample2 {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
 .blueExample2 {
   width: 80px;
   background-color: blue;
 }
 
+.redExample2 {
+  width: 80px;
+  background-color: red;
+}
+
 /* TODO: Add CSS for the rest of your solution below */
+
