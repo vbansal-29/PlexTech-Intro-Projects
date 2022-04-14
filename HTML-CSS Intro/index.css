@@ -1,15 +1,3 @@
-
-body {
-  margin: 20px 40px;
-}
-
-p {
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 0px;
-  margin-top: 16px;
-}
-
 /*--- This is the CSS class for the green rectangular blocks. Note that it uses display: flex ---*/
 
 .wrapper {
